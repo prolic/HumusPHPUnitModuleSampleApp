@@ -12,7 +12,8 @@ return array(
     'humus_phpunit_module' => array(
         'phpunit_runner' => array(
             'Doctrine\Common' => array(
-                'vendor/doctrine/common/phpunit.xml.dist'
+                'vendor/doctrine/common/phpunit.xml.dist',
+                'vendor/zendframework/zendframework/tests/phpunit.xml.dist'
             )
         )
     ),

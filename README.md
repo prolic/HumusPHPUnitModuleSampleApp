@@ -6,7 +6,7 @@ See: https://github.com/prolic/HumusPHPUnitModule
 
 This is a demo application to show the features of Humus PHPUnit Module.
 
-It tests a sample application module with the PHPUnitListener and the Doctrine\Common lib with configuration.
+It tests a sample application module with the PHPUnitListener and the Doctrine\Common lib and Zend Framework 2 with configuration.
 
 Installation
 ------------
