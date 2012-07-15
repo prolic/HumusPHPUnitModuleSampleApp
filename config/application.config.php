@@ -1,6 +1,7 @@
 <?php
 return array(
     'modules' => array(
+        'HumusPHPUnitModule',
         'Application',
     ),
     'module_listener_options' => array(

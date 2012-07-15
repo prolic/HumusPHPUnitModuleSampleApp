@@ -9,10 +9,10 @@
 
 namespace Application;
 
-use HumusPHPUnitModule\ModuleManager\Listener\PHPUnitListener;
+use HumusPHPUnitModule\ModuleManager\Feature\PHPUnitProviderInterface;
 use Zend\Mvc\ModuleRouteListener;
 
-class Module implements PHPUnitListener
+class Module implements PHPUnitProviderInterface
 {
     public function onBootstrap($e)
     {
@@ -41,7 +41,7 @@ class Module implements PHPUnitListener
     public function getPHPUnitXmlPaths()
     {
         return array(
-            __DIR__ . '/../tests/phpunit.xml.dist'
+            __DIR__ . '/tests/phpunit.xml.dist'
         );
     }
 

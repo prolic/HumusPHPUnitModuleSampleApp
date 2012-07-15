@@ -3,7 +3,8 @@
 namespace ApplicationTest\Controller;
 
 use Application\Controller\IndexController;
-use Zend\View\ViewModel;
+use PHPUnit_Framework_TestCase;
+use Zend\View\Model\ViewModel;
 
 class TestIndexController extends PHPUnit_Framework_TestCase
 {
