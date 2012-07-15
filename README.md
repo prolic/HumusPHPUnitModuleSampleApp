@@ -1,33 +1,22 @@
-ZendSkeletonApplication
-=======================
+Humus PHPUnit Module Sample Application
+=======================================
 
-Introduction
-------------
-This is a simple, skeleton application using the ZF2 MVC layer and module
-systems. This application is meant to be used as a starting place for those
-looking to get their feet wet with ZF2.
+Humus PHPUnit Module is a Module for Zend Framework 2 for unit testing.
+See: https://github.com/prolic/HumusPHPUnitModule
 
+This is a demo application to show the features of Humus PHPUnit Module.
+
+It tests a sample application module with the PHPUnitListener and the Doctrine\Common lib with configuration.
 
 Installation
 ------------
 
-Using Composer (recommended)
-----------------------------
-The recommended way to get a working copy of this project is to clone the repository
-and use composer to install dependencies:
-
-    cd my/project/dir
-    git clone git://github.com/zendframework/ZendSkeletonApplication.git
-    cd ZendSkeletonApplication
+    git clone git://github.com/prolic/HumusPHPUnitModuleSampleApp.git
+    cd HumusPHPUnitModuleSampleApp
     php composer.phar install
 
-Using Git submodules
---------------------
-Alternatively, you can install using native git submodules:
+Usage
+-----
 
-    git clone git://github.com/zendframework/ZendSkeletonApplication.git --recursive
+    ./vendor/bin/phpunit
 
-Virtual Host
-------------
-Afterwards, set up a virtual host to point to the public/ directory of the
-project and you should be ready to go!
