@@ -11,7 +11,7 @@
     "require": {
         "php": ">=5.3.3",
         "zendframework/zendframework": "2.*",
-        "prolic/humus-phpunit-module": "1.x",
+        "prolic/humus-phpunit-module": "1.*",
         "doctrine/common": "dev-master"
     }
 }
